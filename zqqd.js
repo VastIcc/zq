@@ -7,7 +7,7 @@ shaolin-kongfu
 
 万分感谢！！
 
-15 2 * * *
+cron 15 2 * * *
 [rewrite_local]
 
 #签到
