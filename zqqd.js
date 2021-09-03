@@ -7,7 +7,7 @@ shaolin-kongfu
 
 万分感谢！！
 
-
+15 2 * * *
 [rewrite_local]
 
 #签到
@@ -15,6 +15,8 @@ https://kandian.wkandian.com/v5/CommonReward/toGetReward.json 重写目标 https
 [MITM]
 hostname = kandian.wkandian.com
 */
+
+
 const $ = new Env("中青看点签到");
 const notify = $.isNode() ? require('./sendNotify') : '';
 message = ""
