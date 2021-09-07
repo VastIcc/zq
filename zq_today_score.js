@@ -7,15 +7,12 @@
 
 万分感谢！！
 
-
+5 23 * * * https://raw.githubusercontent.com/VastIcc/zq/main/zq_today_score.js, tag=中青看点收益统计, enabled=true
 
 原作者少林功夫
 邀请码57984759
 
 */
-
-//5 23 * * * 
-
 const $ = new Env("中青看点收益统计");
 const notify = $.isNode() ? require('./sendNotify') : '';
 message = ""

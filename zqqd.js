@@ -7,15 +7,12 @@
 
 万分感谢！！
 
-
+15 0 * * * https://raw.githubusercontent.com/VastIcc/zq/main/zqqd.js, tag=中青看点签到, enabled=true
 
 原作者少林功夫
 邀请码57984759
 
 */
-
-//15 0 * * * 
-
 
 const $ = new Env("中青看点签到");
 const notify = $.isNode() ? require('./sendNotify') : '';

@@ -7,15 +7,12 @@
 
 万分感谢！！
 
-
+11 6,12,18 * * * https://raw.githubusercontent.com/VastIcc/zq/main/zq_share.js, tag=中青看点火爆转发, enabled=true
 
 原作者少林功夫
 邀请码57984759
 
 */
-
-//11 6,12,18 * * *
-
 const $ = new Env("中青看点火爆转发");
 const notify = $.isNode() ? require('./sendNotify') : '';
 message = ""

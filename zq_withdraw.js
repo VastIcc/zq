@@ -6,6 +6,8 @@
 
 万分感谢！！
 
+25 10 * * * https://raw.githubusercontent.com/VastIcc/zq/main/zq_withdraw.js, tag=中青看点提现, enabled=true
+
 原作者少林功夫
 邀请码57984759
 
@@ -23,10 +25,7 @@ v2p食用说明：
 3.export zq_cash="0.3"或者export zq_cash="30"，不填默认30
 4.多账号用户抓包zq_withdraw时需要与zq_cookie账号顺序一致
 5.zq_withdraw务必与zq_cash金额一致，即修改zq_withdraw时也要修改zq_cash
-*/
-
-//25 10 * * * 
-
+*/ 
 const $ = new Env("中青看点提现");
 const notify = $.isNode() ? require('./sendNotify') : '';
 message = ""

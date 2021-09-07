@@ -7,17 +7,12 @@
 
 万分感谢！！
 
-
+15 6 * * * https://raw.githubusercontent.com/VastIcc/zq/main/zq_friendSign.js, tag=中青看点好友签到红包, enabled=true
 
 原作者少林功夫
 邀请码57984759
 
 */
-
-//15 6 * * *
-
-
-
 const $ = new Env("中青看点好友签到红包");
 const notify = $.isNode() ? require('./sendNotify') : '';
 message = ""

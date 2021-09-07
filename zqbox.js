@@ -6,15 +6,12 @@
 
 万分感谢！！
 
-
+25 21 * * * https://raw.githubusercontent.com/VastIcc/zq/main/zqbox.js, tag=中青看点任务宝箱领取, enabled=true
 
 原作者少林功夫
 邀请码57984759
 
 */
-
-//25 21 * * *
-
 const $ = new Env('中青看点任务宝箱领取');
 let zqboxbody= $.isNode() ? (process.env.zqboxbody ? process.env.zqboxbody : "") : ($.getdata('zqboxbody') ? $.getdata('zqboxbody') : "")
 let zqboxbodyArr = []

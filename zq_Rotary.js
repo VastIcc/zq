@@ -7,15 +7,12 @@
 
 万分感谢！！
 
-
+34 10 * * * https://raw.githubusercontent.com/VastIcc/zq/main/zq_Rotary.js, tag=中青看点大转盘抽奖, enabled=true
 
 原作者少林功夫
 邀请码57984759
 
 */
-
-//34 10 * * * 
-
 const $ = new Env("中青看点大转盘抽奖");
 const notify = $.isNode() ? require('./sendNotify') : '';
 message = ""

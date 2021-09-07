@@ -7,15 +7,12 @@
 
 万分感谢！！
 
-
+38 15 * * * https://raw.githubusercontent.com/VastIcc/zq/main/zq_Adv_video.js, tag=中青看点福利视频, enabled=true
 
 原作者少林功夫
 邀请码57984759
 
 */
-
-//38 15 * * * 
-
 const $ = new Env("中青看点福利视频");
 const notify = $.isNode() ? require('./sendNotify') : '';
 message = ""

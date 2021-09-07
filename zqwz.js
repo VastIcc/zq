@@ -7,7 +7,7 @@
 
 万分感谢！！
 
-30 0,12 * * * https://raw.githubusercontent.com/VastIcc/zq/main/zqwz.js, tag=中青阅读, enabled=true
+30 0,12 * * * https://raw.githubusercontent.com/VastIcc/zq/main/zqwz.js, tag=中青看点阅读文章, enabled=true
 
 原作者少林功夫
 邀请码57984759

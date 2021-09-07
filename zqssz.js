@@ -6,14 +6,13 @@
 
 万分感谢！！
 
-
+35 6 * * * https://raw.githubusercontent.com/VastIcc/zq/main/zqssz.js, tag=中青看点搜索赚, enabled=true
 
 原作者少林功夫
 邀请码57984759
 
 */
 
-//35 6 * * *
 
 const $ = new Env("中青看点搜索赚");
 const notify = $.isNode() ? require('./sendNotify') : '';
