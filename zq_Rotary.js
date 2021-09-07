@@ -1,16 +1,20 @@
+
 /*
-shaolin-kongfu
+备份库私人使用
 
 软件名称：中青看点
-赞赏:邀请码57984759
+赞赏:邀请码55649033
+
 万分感谢！！
 
 
 
-转盘抽奖，使用zq_cookie
+原作者少林功夫
+邀请码57984759
 
+*/
 
- */
+//34 10 * * * 
 
 const $ = new Env("中青看点大转盘抽奖");
 const notify = $.isNode() ? require('./sendNotify') : '';

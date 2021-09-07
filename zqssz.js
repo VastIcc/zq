@@ -1,18 +1,20 @@
 /*
-shaolin-kongfu
+备份库私人使用
 
 软件名称：中青看点
-赞赏:邀请码57984759
+赞赏:邀请码55649033
 
 万分感谢！！
 
-[rewrite_local]
 
-#搜索赚
-https://kandian.wkandian.com/v5/Sousuo/playStart.json 重写目标 https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqssz.js
-[MITM]
-hostname = kandian.wkandian.com
+
+原作者少林功夫
+邀请码57984759
+
 */
+
+//35 6 * * *
+
 const $ = new Env("中青看点搜索赚");
 const notify = $.isNode() ? require('./sendNotify') : '';
 message = ""
