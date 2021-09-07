@@ -7,15 +7,12 @@
 
 万分感谢！！
 
-
+// 30 0,12 * * * 
 
 原作者少林功夫
 邀请码57984759
 
 */
-
-// 30 0,12 * * * 
-
 const $ = new Env("中青看点阅读文章");
 const notify = $.isNode() ? require('./sendNotify') : '';
 message = ""
