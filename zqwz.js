@@ -14,7 +14,7 @@
 
 */
 
-//30 0,12 * * * 
+// 30 0,12 * * * 
 
 const $ = new Env("中青看点阅读文章");
 const notify = $.isNode() ? require('./sendNotify') : '';
