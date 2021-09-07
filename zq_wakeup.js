@@ -1,5 +1,3 @@
-
-
 /*
 备份库私人使用
 
@@ -8,7 +6,7 @@
 
 万分感谢！！
 
-44 5,6,7,9 * * * https://raw.githubusercontent.com/VastIcc/zq/main/zqwz.js, tag=中青看点打卡赚, enabled=true
+44 5,6,7,9 * * * https://raw.githubusercontent.com/VastIcc/zq/main/zq_wakeup.js, tag=中青看点打卡赚, enabled=true
 
 原作者少林功夫
 邀请码57984759
