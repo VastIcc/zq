@@ -34,6 +34,16 @@
         "target": "https://ghproxy.com/https://raw.githubusercontent.com/VastIcc/zq/main/zqkkz.js"
       }
     },
+     {
+      "name": "中青阅读翻倍",
+      "type": "cron",
+      "time": "15 0 * * 1",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/VastIcc/zq/main/zq_double.js"
+      }
+    },
     {
       "name": "中青火爆转发",
       "type": "cron",
