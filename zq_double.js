@@ -76,10 +76,10 @@ Object.keys(zq_cookies).forEach((item) => {
 
 
          if (message.length != 0) {
-             await notify ? notify.sendNotify("中青看点阅读翻倍", `${message}\n\n 吹水群：https://t.me/ShaolinTemple2`) :
-                 $.msg($.name, "中青看点阅读翻倍", `${message}\n\n吹水群：https://t.me/ShaolinTemple2`);
+             await notify ? notify.sendNotify("中青看点阅读翻倍", `${message}\n\n 少林功夫yyds`) :
+                 $.msg($.name, "中青看点阅读翻倍", `${message}\n\n少林功夫yyds`);
          } else if ($.isNode()) {
-             await notify.sendNotify("中青看点阅读翻倍", `${message}\n\n吹水群：https://t.me/ShaolinTemple2`);
+             await notify.sendNotify("中青看点阅读翻倍", `${message}\n\n少林功夫yyds`);
          }
      }
      })()
